@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "mynew-bucket-24"
+    bucket         = "advanced-end-to-end-devsecops-new"
     region         = "us-west-2"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "products"
