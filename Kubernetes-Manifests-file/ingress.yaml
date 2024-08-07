@@ -20,7 +20,7 @@ spec:
                 name: api
                 port:   
                   number: 3500
-           - path: /healthz
+          - path: /healthz
             pathType: Exact
             backend:
               service:
