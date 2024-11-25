@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terra-cli"
+    bucket         = "kops-s3-new"
     region         = "us-west-2"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "orders"
